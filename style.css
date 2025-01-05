@@ -10,6 +10,8 @@ body {
   line-height: 1.6;
   scroll-behavior: smooth;
   scroll-padding-top: 40px;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 ul {
@@ -29,10 +31,13 @@ img {
   --secondary-color: #ffc05a;
   --light-color: #f9fafb;
   --dark-color: #272d35;
+  font-size: 16px;
+  --header-height: 80px;
+  --container-width: 1200px;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 1rem 2rem;
   /* display: flex;
@@ -87,6 +92,11 @@ img {
 
 section {
   padding-top: 10px;
+}
+
+nav {
+  height: var(--header-height);
+  padding: 0 1rem;
 }
 
 .navbar {
@@ -182,14 +192,16 @@ section {
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
+  font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .hero P {
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
+  font-size: 1rem;
   line-height: 1.2;
   font-weight: 400;
   margin-bottom: 20px;
@@ -197,8 +209,10 @@ section {
 
 .hero img {
   width: 100%;
+  max-width: 600px;
   margin-right: -100px;
   margin-bottom: 50px;
+  height: auto;
 }
 
 .btn {
@@ -211,6 +225,7 @@ section {
   color: white;
   text-align: center;
   cursor: pointer;
+  /* font-size: 1.3rem; */
   font-size: 1.3rem;
 }
 
