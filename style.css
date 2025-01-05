@@ -184,7 +184,7 @@ section {
 }
 
 .hero h1 {
-  font-size: 2.3rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 20px;
@@ -206,7 +206,7 @@ section {
 .btn {
   display: inline-block;
   /* width: 200px; */
-  padding: 20px 60px;
+  padding: 10px 30px;
   border: 1px solid coral;
   border-radius: 40px;
   background: var(--secondary-color);
