@@ -161,7 +161,7 @@ section {
 .hero {
   background: #000 url("/tutor-website/images/header-background.jpg") center
     center/cover no-repeat;
-  padding: 9rem 2rem 7rem;
+  padding: 8rem 1rem 6rem;
   color: white;
   overflow-x: hidden;
   position: relative;
@@ -184,21 +184,21 @@ section {
 }
 
 .hero h1 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .hero P {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.2;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 .hero img {
-  width: 40%;
+  width: 60%;
   margin-right: -100px;
   margin-bottom: 50px;
 }
